@@ -4,12 +4,15 @@ $(document).ready(function(){
 	
 	$(".soc a.s1").on('click', function(){
 		$(".ya-share2__item_service_facebook .ya-share2__link").click();
+		return false;
 	});
 	$(".soc a.s2").on('click', function(){
 		$(".ya-share2__item_service_gplus .ya-share2__link").click();
+		return false;
 	});
 	$(".soc a.s3").on('click', function(){
 		$(".ya-share2__item_service_twitter .ya-share2__link").click();
+		return false;
 	});
 	
 	jQuery.os = { name: (/(win|mac|linux|sunos|solaris|iphone|ipad)/.exec(navigator.platform.toLowerCase()) || [u])[0].replace('sunos', 'solaris') };
