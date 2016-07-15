@@ -23,17 +23,3 @@ $(document).ready(function(){
 		$("body").addClass("androidfix");
 	}
 });
-
-$(window).load(function(){
-	'use strict';
-});
-
-$(window).resize(function(){
-	'use strict';
-	
-	ResizeHeader();
-});
-
-$(window).scroll(function(){
-	'use strict';
-});
