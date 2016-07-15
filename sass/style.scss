@@ -1,0 +1,248 @@
+@import "reset";
+@import "fonts";
+@import "colors";
+@import "mixins";
+
+$mobile: 768px;
+$tablet: 992px;
+$desktop: 1516px;
+
+/* Main tags
+----------------------------------------- */
+* {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-size-adjust: none;
+	box-sizing:border-box;
+}
+html, body {
+	height:100%;
+}
+body {
+	min-width:320px;
+}
+h1 {
+	@include text($light, 34px, $white, 40px, none);
+	text-shadow:1px 1px 0px rgba(0, 0, 0, 0.51);
+	font-weight:normal;
+	margin-bottom:0px;
+	@include max($mobile) {
+		font-size:20px;
+		line-height:24px;
+	}
+}
+.container {
+	display:flex;
+	flex-flow:row wrap;
+	min-height:480px;
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size:cover;
+	justify-content:center;
+	align-content:space-between;
+	height:100%;
+	font-size:0px;
+	text-align:center;
+}
+.logo {
+	flex:1 100%;
+	height:60%;
+	a {
+		display:inline-block;
+		background-image:url(../images/logo.png);
+		background-repeat:no-repeat;
+		background-position:0px 0px;
+		background-size:56px 62px;
+		@include text($light, 44px, $black, 62px, none);
+		text-decoration:none;
+		padding-left:85px;
+		margin-top:30px;
+		@include max($mobile) {
+			background-size:27px 30px;
+			font-size:22px;
+			line-height:30px;
+			padding-left:40px;
+			margin-top:15px;
+		}
+	}
+}
+form {
+	position:relative;
+	flex:1 100%;
+	height:84px;
+	background-color:rgba(26, 132, 219, 0.7);
+	padding-top:15px;
+	@include max($mobile) {
+		height:54px;
+		padding-top:10px;
+	}
+	h1 {
+		position:absolute;
+		left:0px;
+		top:-60px;
+		width:100%;
+		@include max($mobile) {
+			top:-30px;
+		}
+	}
+	input {
+		display:inline-block;
+		width:350px;
+		height:54px;
+		border:0px;
+		background-color:$white;
+		border-radius:5px;
+		background-image:url(../images/mail.png);
+		background-repeat:no-repeat;
+		background-position:18px center;
+		@include text($reg, 18px, $black, 18px, none);
+		padding-left:55px;
+		outline:none;
+		appearance:none;
+		@include max($mobile) {
+			width:190px;
+			height:34px;
+			background-position:10px center;
+			background-size:15px auto;
+			font-size:11px;
+			padding-left:35px;
+		}
+	}
+	button {
+		cursor:pointer;
+		display:inline-block;
+		height:54px;
+		border:0px;
+		background-color:$white;
+		border-radius:5px;
+		@include text($reg, 20px, $black, 20px, uppercase);
+		padding-left:25px;
+		padding-right:25px;
+		margin-left:15px;
+		outline:none;
+		appearance:none;
+		@include max($mobile) {
+			height:34px;
+			font-size:12px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-left:7px;
+		}
+	}
+}
+.soc {
+	flex:1 100%;
+	height:40px;
+	@include max($mobile) {
+		height:20px;
+	}
+	a {
+		display:inline-block;
+		width:40px;
+		height:40px;
+		background-repeat:no-repeat;
+		background-position:0px 0px;
+		background-size:100% 100%;
+		margin-left:12px;
+		margin-right:12px;
+		&.s1 {
+			background-image:url(../images/soc_01.png);
+		}
+		&.s2 {
+			background-image:url(../images/soc_02.png);
+		}
+		&.s3 {
+			background-image:url(../images/soc_03.png);
+		}
+		@include max($mobile) {
+			width:20px;
+			height:20px;
+			margin-left:6px;
+			margin-right:6px;
+		}
+	}
+}
+.m {
+	flex:1 100%;
+	height:45px;
+	@include max($mobile) {
+		height:29px;
+	}
+	a {
+		display:inline-block;
+		width:48px;
+		height:45px;
+		background-image:url(../images/m.png);
+		background-repeat:no-repeat;
+		background-position:0px 0px;
+		background-size:100% 100%;
+		@include max($mobile) {
+			width:30px;
+			height:29px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
