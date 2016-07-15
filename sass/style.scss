@@ -130,6 +130,16 @@ form {
 			margin-left:7px;
 		}
 	}
+	#message {
+		@include text($light, 34px, $white, 80px, none);
+		text-shadow:1px 1px 0px rgba(0, 0, 0, 0.51);
+		margin-top:-15px;
+		@include max($mobile) {
+			font-size:20px;
+			line-height:50px;
+			margin-top:-10px;
+		}
+	}
 }
 .ya-share2 {
 	flex:1 100%;
@@ -200,66 +210,3 @@ form {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -3,21 +3,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
-
+<title>DayLight</title>
 <meta property="og:type" content="website" />
+<meta property="og:url" content="http://daylight.world/" />
+<meta property="og:site_name" content="DayLight">
+<meta property="og:image" content="http://daylight.world/images/logo_soc.png"/>
 <meta property="og:title" content="DayLight" />
 <meta property="og:description" content="DayLight is a concept of a blockchain-based financial and state system."/>
-<meta property="og:image" content="http://daylight.world/images/logo_soc.png"/>
-
-<meta itemprop="title" content="DayLight" />
-<meta itemprop="description" content="DayLight is a concept of a blockchain-based financial and state system."/>
-<meta itemprop="image" content="http://daylight.world/images/logo_soc.png"/>
-
+<meta name="description" content="DayLight is a concept of a blockchain-based financial and state system.">
 <meta name="twitter:title" content="DayLight" />
-<meta name="twitter:description" content="DayLight is a concept of a blockchain-based financial and state system."/>
-<meta name="twitter:image:src" content="http://daylight.world/images/logo_soc.png"/>
-
-<title>DayLight</title>
+<meta name="twitter:description" content="DayLight is a concept of a blockchain-based financial and state system." />
+<meta name="twitter:image" content="http://daylight.world/images/logo_soc.png" />
+<meta name="twitter:url" content="http://daylight.world/" />
 <link href="css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
@@ -27,8 +24,11 @@
 	<div class="logo"><a href="#">DayLight</a></div>
 	<form action="" novalidate>
 		<h1>Subscribe for news!</h1>
-		<input type="email" value="" placeholder="E-mail">
-		<button type="button">Subscribe</button>
+		<div id="form">
+			<input id="email" type="email" value="" placeholder="E-mail">
+			<button id="send_email" type="button">Subscribe</button>
+		</div>
+		<div id="message"></div>
 	</form>
 	<script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script>
 	<script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script>
