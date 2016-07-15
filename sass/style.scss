@@ -153,21 +153,27 @@ form {
 					background-repeat:no-repeat;
 					background-position:0px 0px;
 					background-size:100% 100%;
-					&.s1 {
-						background-image:url(../images/soc_01.png);
-					}
-					&.s2 {
-						background-image:url(../images/soc_02.png);
-					}
-					&.s3 {
-						background-image:url(../images/soc_03.png);
-					}
 					@include max($mobile) {
 						width:20px;
 						height:20px;
 					}
 					span {
 						display:none;
+					}
+				}
+				&.ya-share2__item_service_facebook {
+					.ya-share2__link {
+						background-image:url(../images/soc_01.png);
+					}
+				}
+				&.ya-share2__item_service_gplus {
+					.ya-share2__link {
+						background-image:url(../images/soc_02.png);
+					}
+				}
+				&.ya-share2__item_service_twitter {
+					.ya-share2__link {
+						background-image:url(../images/soc_03.png);
 					}
 				}
 			}

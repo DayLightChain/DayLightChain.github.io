@@ -280,18 +280,6 @@ form button {
   background-size: 100% 100%;
 }
 
-.ya-share2 .ya-share2__container .ya-share2__list .ya-share2__item .ya-share2__link.s1 {
-  background-image: url(../images/soc_01.png);
-}
-
-.ya-share2 .ya-share2__container .ya-share2__list .ya-share2__item .ya-share2__link.s2 {
-  background-image: url(../images/soc_02.png);
-}
-
-.ya-share2 .ya-share2__container .ya-share2__list .ya-share2__item .ya-share2__link.s3 {
-  background-image: url(../images/soc_03.png);
-}
-
 @media screen and (max-width: 767px) {
   .ya-share2 .ya-share2__container .ya-share2__list .ya-share2__item .ya-share2__link {
     width: 20px;
@@ -301,6 +289,18 @@ form button {
 
 .ya-share2 .ya-share2__container .ya-share2__list .ya-share2__item .ya-share2__link span {
   display: none;
+}
+
+.ya-share2 .ya-share2__container .ya-share2__list .ya-share2__item.ya-share2__item_service_facebook .ya-share2__link {
+  background-image: url(../images/soc_01.png);
+}
+
+.ya-share2 .ya-share2__container .ya-share2__list .ya-share2__item.ya-share2__item_service_gplus .ya-share2__link {
+  background-image: url(../images/soc_02.png);
+}
+
+.ya-share2 .ya-share2__container .ya-share2__list .ya-share2__item.ya-share2__item_service_twitter .ya-share2__link {
+  background-image: url(../images/soc_03.png);
 }
 
 .m {
