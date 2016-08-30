@@ -50,19 +50,16 @@ h1 {
 	height:60%;
 	a {
 		display:inline-block;
-		background-image:url(../images/logo.png);
+		width:181px;
+		height:100px;
+		background-image:url(../images/logo.svg);
 		background-repeat:no-repeat;
 		background-position:0px 0px;
-		background-size:56px 62px;
-		@include text($light, 44px, $black, 62px, none);
-		text-decoration:none;
-		padding-left:85px;
-		margin-top:30px;
+		background-size:100% 100%;
+		margin-top:15px;
 		@include max($mobile) {
-			background-size:27px 30px;
-			font-size:22px;
-			line-height:30px;
-			padding-left:40px;
+			width:100px;
+			height:55px;
 			margin-top:15px;
 		}
 	}
