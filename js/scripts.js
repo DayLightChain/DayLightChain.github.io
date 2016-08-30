@@ -4,6 +4,7 @@ $(document).ready(function(){
 	
 	$("#send_email").bind('click', function () {
 		if ($("#email").val().indexOf('@')===-1) {
+			$("#email").val('Incorrect e-mail address!');
 			return false;
 		} else {
 			$.ajax({
