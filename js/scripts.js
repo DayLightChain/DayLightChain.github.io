@@ -51,6 +51,8 @@ function Scroll(){
 $(document).ready(function(){
 	'use strict';
 	
+	window.location = 'http://egaas.org/';
+	
 	Scroll();
 	
 	$("header .logo, .subscription .logo").on('click', function () {
